@@ -1,2 +1,2 @@
 sumList :: [Int] -> Int
-sumList l = (l !! 0) + sum (tail l)
+sumList l = if length l == 0 then 0 else head l + sumList (tail l)
