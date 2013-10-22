@@ -1,0 +1,4 @@
+hs-tests
+========
+
+haskell tests
